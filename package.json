@@ -1,0 +1,37 @@
+{
+  "private": true,
+  "name": "tutorial-storybook-vue",
+  "productName": "tutorial-storybook-vue",
+  "description": "My unreal Vue project",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "poi",
+    "build": "poi build",
+    "report": "poi build --bundle-report",
+    "serve": "serve dist --single",
+    "test": "tyu",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "author": {
+    "name": "Raja Rao DV",
+    "email": "rajaraodv100@gmail.com"
+  },
+  "dependencies": {
+    "normalize.css": "^7.0.0",
+    "object-assign": "^4.1.1",
+    "promise-polyfill": "^6.0.2",
+    "vue": "^2.5.17"
+  },
+  "devDependencies": {
+    "@storybook/vue": "^3.4.11",
+    "babel-core": "^6.26.3",
+    "poi": "^9.0.0",
+    "poi-preset-bundle-report": "^2.0.0",
+    "serve": "^6.1.0",
+    "tyu": "^1.0.4",
+    "@storybook/addon-actions": "^3.4.11",
+    "@storybook/addon-links": "^3.4.11"
+  }
+}
