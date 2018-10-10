@@ -25,13 +25,14 @@
     "vue": "^2.5.17"
   },
   "devDependencies": {
+    "@applitools/eyes.storybook": "^2.1.5",
+    "@storybook/addon-actions": "^3.4.11",
+    "@storybook/addon-links": "^3.4.11",
     "@storybook/vue": "^3.4.11",
     "babel-core": "^6.26.3",
     "poi": "^9.0.0",
     "poi-preset-bundle-report": "^2.0.0",
     "serve": "^6.1.0",
-    "tyu": "^1.0.4",
-    "@storybook/addon-actions": "^3.4.11",
-    "@storybook/addon-links": "^3.4.11"
+    "tyu": "^1.0.4"
   }
 }
