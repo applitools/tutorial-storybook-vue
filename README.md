@@ -1,2 +1,26 @@
 # tutorial-storybook-vue
-Please see for details: [https://applitools.com/tutorials/storybook-vue.html](https://applitools.com/tutorials/storybook-vue.html)
+
+## Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Run your tests
+```
+npm run test
+```
+
+### Lints and fixes files
+```
+npm run lint
+```

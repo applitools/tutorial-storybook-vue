@@ -1,38 +1,53 @@
 {
-  "private": true,
   "name": "tutorial-storybook-vue",
-  "productName": "tutorial-storybook-vue",
-  "description": "My unreal Vue project",
-  "version": "0.0.0",
-  "license": "MIT",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "dev": "poi",
-    "build": "poi build",
-    "report": "poi build --bundle-report",
-    "serve": "serve dist --single",
-    "test": "tyu",
-    "storybook": "start-storybook -p 6006",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "storybook": "start-storybook -p 9001 -c .storybook",
     "build-storybook": "build-storybook"
   },
-  "author": {
-    "name": "Raja Rao DV",
-    "email": "rajaraodv100@gmail.com"
-  },
   "dependencies": {
-    "normalize.css": "^7.0.0",
-    "object-assign": "^4.1.1",
-    "promise-polyfill": "^6.0.2",
     "vue": "^2.5.17"
   },
   "devDependencies": {
     "@applitools/eyes.storybook": "^2.1.5",
-    "@storybook/addon-actions": "^3.4.11",
-    "@storybook/addon-links": "^3.4.11",
-    "@storybook/vue": "^3.4.11",
-    "babel-core": "^6.26.3",
-    "poi": "^9.0.0",
-    "poi-preset-bundle-report": "^2.0.0",
-    "serve": "^6.1.0",
-    "tyu": "^1.0.4"
-  }
+    "@babel/core": "^7.1.2",
+    "@storybook/addon-actions": "^4.0.0-alpha.24",
+    "@storybook/addon-links": "^4.0.0-alpha.24",
+    "@storybook/addons": "^4.0.0-alpha.24",
+    "@storybook/vue": "^4.0.0-alpha.24",
+    "@vue/cli-plugin-babel": "^3.0.5",
+    "@vue/cli-plugin-eslint": "^3.0.5",
+    "@vue/cli-service": "^3.0.5",
+    "babel-loader": "^8.0.4",
+    "babel-preset-vue": "^2.0.2",
+    "vue-template-compiler": "^2.5.17"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
 }

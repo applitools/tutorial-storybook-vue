@@ -3,7 +3,7 @@ import { linkTo } from '@storybook/addon-links';
 
 import MyButton from './MyButton';
 import Welcome from './Welcome';
-import App from '../src/components/App.vue';
+import App from '../src/App.vue';
 
 storiesOf('Welcome', module).add('to Storybook', () => ({
   components: { Welcome },
