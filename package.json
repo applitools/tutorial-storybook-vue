@@ -13,7 +13,7 @@
     "vue": "^2.5.17"
   },
   "devDependencies": {
-    "@applitools/eyes-storybook": "^2.7.31",
+    "@applitools/eyes-storybook": "latest",
     "@babel/core": "^7.1.2",
     "@storybook/addon-actions": "^5.1.11",
     "@storybook/addon-links": "^5.1.11",
