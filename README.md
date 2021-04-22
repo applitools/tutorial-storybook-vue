@@ -1,6 +1,6 @@
 # Applitools Tutorial - Storybook with Vue
 
-Get started with Applitools Eyes visual testing with this example of using the Storybook and the [Eyes Storybook SDK](https://github.com/applitools/eyes.sdk.javascript1/tree/master/packages/eyes-storybook) using the CSF in Reaect.
+Get started with Applitools Eyes visual testing with this example of using the Storybook and the [Eyes Storybook SDK](https://github.com/applitools/eyes.sdk.javascript1/tree/master/packages/eyes-storybook) with Vue.
 
 Learn more about how to install and start this project with our [Storybook Vue tutorial](https://applitools.com/tutorials/storybook-vue.html)!
 
